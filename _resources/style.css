@@ -1,0 +1,176 @@
+/*   Default settings   */
+body {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+/*   Banner and Navigation   */
+header {
+	background-image:url(_images/glasses-bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height: 30rem;
+	padding-top: 1rem;
+}
+nav {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	background-color: cadetblue;
+	color: white;
+	padding: 1rem 0;
+}
+nav div {
+	display: flex;
+	align-items: center;
+}
+nav img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+.menu {
+	display: flex;
+	align-items: center;
+}
+ul li {
+	display: inline;
+	padding: 1rem 2rem;
+}
+ul li:hover {
+	color: #33FF00;
+	cursor: pointer;
+}
+.flex {
+	display:flex;
+}
+header .flex{
+	justify-content: flex-end;
+	margin-top: 11rem;
+}
+.bannerText {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 1.5rem 5rem;
+	line-height: 1.2;
+	background-color: rgba(255,255,255,0.7);
+}
+.menu .mobile {
+	display: none;
+}
+
+/*   Icons   */
+.service {
+	display: flex;
+	justfy-content: center;
+}
+.items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding: 3rem 0;
+	margin: 0 auto;
+	width: 5rem;
+	height: 8rem;
+}
+.exam img{
+	width: 3.5rem;
+}
+.fittings img{
+	width: 5rem;
+}
+.delivery img{
+	width: 5rem;
+}
+/*   Info Section   */
+.info {
+	width: 35%;
+	margin: 0 auto;
+}
+.title {
+	padding: 0.5rem 1.25rem;
+	font-weight: bold;
+	background-color: cadetblue;
+	color: white;
+	margin-bottom: 1rem;
+	width: 10rem;
+	text-align: center;	
+}
+/*   Footer   */
+footer {
+	display: flex;
+	background-color: azure;
+	margin-top: 5rem;	
+}
+
+footer img {
+	height: 1.5rem;	
+	padding: 4rem 1rem 4rem 4rem;
+}
+footer span {
+	padding: 4rem 0;	
+}
+
+/*     Tablet Responsive Design     */
+@media only screen and (max-width: 1024px){
+.container {
+	max-width: 100%;
+	margin: 0;
+}
+header {
+	height: 22rem;
+	padding-top: 0;
+}
+.bannerText {
+	font-size: 1.33rem;
+	font-weight: bold;
+	padding: 0.75rem 4rem;
+	line-height: 1.2;
+	background-color: rgba(255,255,255,0.7);
+	margin-right: 2rem;
+}
+}
+/*     Mobile Responsive Design     */
+@media only screen and (max-width: 480px){
+header { 
+	height: 17rem;
+	background-position: 20%;
+}
+.container span {
+	display: none;
+}
+.menu ul {
+	display: none;
+}
+.menu .mobile {
+	display: block;
+} 
+.bannerText {
+	width: 100%;
+	margin: -2rem auto 0rem auto;
+	text-align: center;
+}
+.service {
+	flex-direction: column;
+	
+}
+.info {
+	width: 100%
+}
+.title {
+	width: 100%;
+	text-align: center;
+}
+.info p {
+	padding: 1rem 0 4rem 0;
+	font-size: 0.90rem;
+	font-family: Helvetica;
+}
+footer img {
+	margin: 0 auto;
+}
+}
