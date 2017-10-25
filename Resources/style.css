@@ -9,7 +9,7 @@ body {
 }
 /*   Banner and Navigation   */
 header {
-	background-image:url(_images/glasses-bg.png);
+	background-image:url(Images/glasses-bg.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
