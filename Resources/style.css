@@ -61,7 +61,6 @@ header .flex{
 .menu .mobile {
 	display: none;
 }
-
 /*   Icons   */
 .service {
 	display: flex;
@@ -154,10 +153,10 @@ header {
 	text-align: center;
 }
 .service {
-	flex-direction: flex;
-	felx-direction: column;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-	margin-top: 3rem
+	margin-top: 3rem;
 }
 .info {
 	width: 100%
