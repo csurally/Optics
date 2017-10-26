@@ -154,8 +154,10 @@ header {
 	text-align: center;
 }
 .service {
-	flex-direction: column;
-	
+	flex-direction: flex;
+	felx-direction: column;
+	align-items: center;
+	margin-top: 3rem
 }
 .info {
 	width: 100%
